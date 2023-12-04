@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WebForm/1.0.0": {
+        "dependencies": {
+          "Tasks": "1.0.0"
+        },
+        "runtime": {
+          "WebForm.dll": {}
+        }
+      },
+      "Tasks/1.0.0": {
+        "runtime": {
+          "Tasks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebForm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tasks/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

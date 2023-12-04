@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Tasks/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Tasks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tasks.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tasks/1.0.0": {
+      "type": "project",
+      "path": "../Tasks/Tasks.csproj",
+      "msbuildProject": "../Tasks/Tasks.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Tasks >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\samue\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\samue\\Documents\\C#Workspace\\WebForm\\WebForm.csproj",
+      "projectName": "WebForm",
+      "projectPath": "C:\\Users\\samue\\Documents\\C#Workspace\\WebForm\\WebForm.csproj",
+      "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\samue\\Documents\\C#Workspace\\WebForm\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\samue\\Documents\\C#Workspace\\Tasks\\Tasks.csproj": {
+              "projectPath": "C:\\Users\\samue\\Documents\\C#Workspace\\Tasks\\Tasks.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\samue\\AppData\\Roaming\\.dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
